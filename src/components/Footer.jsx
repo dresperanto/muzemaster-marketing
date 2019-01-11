@@ -18,31 +18,24 @@ const Footer = () => {
               <div className="col-lg-4 mb20">
                 <h5 className=" mb20">Connect</h5>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/muzemaster"
                   className="social-icon si-dark si-facebook si-dark-round"
                 >
                   <i className="fa fa-facebook" />
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com/muzemaster"
                   className="social-icon si-dark si-twitter si-dark-round"
                 >
                   <i className="fa fa-twitter" />
                   <i className="fa fa-twitter" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/muzemaster/"
                   className="social-icon si-dark si-g-plus si-dark-round"
                 >
-                  <i className="fa fa-google-plus" />
-                  <i className="fa fa-google-plus" />
-                </a>
-                <a
-                  href="#"
-                  className="social-icon si-dark si-skype si-dark-round"
-                >
-                  <i className="fa fa-skype" />
-                  <i className="fa fa-skype" />
+                  <i className="fa fa-linkedin" />
+                  <i className="fa fa-linkedin" />
                 </a>
               </div>
             </div>

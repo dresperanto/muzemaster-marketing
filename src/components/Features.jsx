@@ -11,10 +11,10 @@ const Features = () => {
               data-wow-delay=".1s"
             >
               <i className="icon-laptop-phone" />
-              <h4>Responsive layouts</h4>
+              <h4>Practice smarter</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetu do eiusmod tempor
-                incididunt labore.
+                Organize your lessons more efficiently and record your progress
+                in the ledger.
               </p>
             </div>
             <div
@@ -22,10 +22,10 @@ const Features = () => {
               data-wow-delay=".2s"
             >
               <i className="icon-new-tab" />
-              <h4>Over 400+ Layouts</h4>
+              <h4>Learn faster</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetu do eiusmod tempor
-                incididunt labore.
+                Our intelligence engine will help identify weaknesses so you can
+                practice what you need to get better.
               </p>
             </div>
             <div
@@ -33,10 +33,11 @@ const Features = () => {
               data-wow-delay=".3s"
             >
               <i className="icon-graph" />
-              <h4>Admin Dashboard</h4>
+              <h4>Make learning fun</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetu do eiusmod tempor
-                incididunt labore.
+                Use gamification to hit milestones and reward yourself for
+                achieving your goals. Compete against others to see where your
+                stack up.
               </p>
             </div>
             <div
@@ -44,10 +45,11 @@ const Features = () => {
               data-wow-delay=".4s"
             >
               <i className="icon-palette" />
-              <h4>Built in SASS</h4>
+              <h4>Easy to use</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetu do eiusmod tempor
-                incididunt labore.
+                Simple and elegant interface makes gettng up to speed a snap.
+                You won't spend you time on figuring out how to use Muzemaster,
+                rather you'll start using it in now time.
               </p>
             </div>
           </div>
@@ -66,10 +68,11 @@ const Features = () => {
                   here, content here', making it look like readable English.
                 </p>
                 <a
-                  href="https://youtube.com/watch?v=5Tb73do1Mns"
+                  href="https://www.youtube.com/watch?v=zRV9Jd-503c"
                   className="btn btn-outline-dark modal-video"
                 >
-                  <i className="icon-play-circle" />Watch Video
+                  <i className="icon-play-circle" />
+                  Watch Video
                 </a>
               </div>
               <div
