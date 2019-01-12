@@ -39,11 +39,13 @@ const Hero = () => {
                   Sign up to get the latest Muzemaster updates
                 </h6>
                 <h3 class="text-white  mb20">Stay Tuned</h3>
-                <form name="newsletter" method="post" netlify>
+                <form name="newsletter" method="post">
+                  <input type="hidden" name="form-name" value="newsletter" />
                   <div class="row">
                     <div class="col-md-12 mb20">
                       <input
                         type="text"
+                        name="name"
                         class="form-control"
                         placeholder="Name"
                         required=""
@@ -52,6 +54,7 @@ const Hero = () => {
                     <div class="col-md-12 mb20">
                       <input
                         type="email"
+                        name="email"
                         class="form-control"
                         placeholder="Email"
                         required=""
