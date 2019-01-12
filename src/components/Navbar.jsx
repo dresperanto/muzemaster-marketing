@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white navbar-sticky shadow">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-sticky shadow">
         <div className="container-fluid">
           <a className="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="logo" />
@@ -45,7 +45,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" data-scroll href="#faqs">
-                  Faqs
+                  FAQ
                 </a>
               </li>
               <li className="nav-item">

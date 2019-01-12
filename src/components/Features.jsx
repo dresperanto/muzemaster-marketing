@@ -11,8 +11,8 @@ const Features = () => {
               data-wow-delay=".1s"
             >
               <i className="icon-laptop-phone" />
-              <h4>Practice smarter</h4>
-              <p>
+              <h3>Smarter</h3>
+              <p className="text-left">
                 Organize your lessons more efficiently and record your progress
                 in the ledger.
               </p>
@@ -22,8 +22,8 @@ const Features = () => {
               data-wow-delay=".2s"
             >
               <i className="icon-new-tab" />
-              <h4>Learn faster</h4>
-              <p>
+              <h3>Faster</h3>
+              <p className="text-left">
                 Our intelligence engine will help identify weaknesses so you can
                 practice what you need to get better.
               </p>
@@ -33,8 +33,8 @@ const Features = () => {
               data-wow-delay=".3s"
             >
               <i className="icon-graph" />
-              <h4>Make learning fun</h4>
-              <p>
+              <h3>Fun</h3>
+              <p className="text-left">
                 Use gamification to hit milestones and reward yourself for
                 achieving your goals. Compete against others to see where your
                 stack up.
@@ -45,8 +45,8 @@ const Features = () => {
               data-wow-delay=".4s"
             >
               <i className="icon-palette" />
-              <h4>Easy to use</h4>
-              <p>
+              <h3>Easy</h3>
+              <p className="text-left">
                 Simple and elegant interface makes gettng up to speed a snap.
                 You won't spend you time on figuring out how to use Muzemaster,
                 rather you'll start using it in now time.

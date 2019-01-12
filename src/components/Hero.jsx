@@ -36,9 +36,9 @@ const Hero = () => {
             <div class="col-lg-5 ml-auto">
               <div class="hero-form">
                 <h6 class="text-white-gray">
-                  Subscribe to our Newsletter and get benefits
+                  Sign up to get the latest Muzemaster updates
                 </h6>
-                <h3 class="text-white  mb20">Newsletter</h3>
+                <h3 class="text-white  mb20">Stay Tuned</h3>
                 <form name="newsletter" method="post" netlify>
                   <div class="row">
                     <div class="col-md-12 mb20">
