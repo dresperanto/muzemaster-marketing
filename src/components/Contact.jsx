@@ -19,7 +19,7 @@ const Contact = () => {
               <h3 className="text-center text-white title-font mb50">
                 Subscribe Now
               </h3>
-              <form name="contact" data-netlify="true">
+              <form name="contact" method="POST" data-netlify="true">
                 <div className="row">
                   <div className="col-md-4">
                     <input
