@@ -39,7 +39,7 @@ const Hero = () => {
                   Subscribe to our Newsletter and get benefits
                 </h6>
                 <h3 class="text-white  mb20">Newsletter</h3>
-                <form>
+                <form name="newsletter-subscription" data-netlify="true">
                   <div class="row">
                     <div class="col-md-12 mb20">
                       <input

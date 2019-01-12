@@ -16,11 +16,12 @@ const Footer = () => {
                 <p className="lead">info@muzemaster.com</p>
               </div>
               <div className="col-lg-4 mb20">
-                <h5 className=" mb20">Connect</h5>
+                <h5 className="mb20 text-center">Connect</h5>
                 <a
                   href="https://www.facebook.com/muzemaster"
                   className="social-icon si-dark si-facebook si-dark-round"
                 >
+                  <i className="fa fa-facebook" />
                   <i className="fa fa-facebook" />
                 </a>
                 <a
