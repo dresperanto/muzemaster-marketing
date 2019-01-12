@@ -19,7 +19,31 @@ const Contact = () => {
               <h3 className="text-center text-white title-font mb50">
                 Subscribe Now
               </h3>
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact" method="post" className="ui form" action="/">
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="field">
+                  <label>Name</label>
+                  <input type="text" name="name" placeholder="Name" />
+                </div>
+                <div className="field">
+                  <div className="field">
+                    <label>E-mail</label>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="joe@schmoe.com"
+                    />
+                  </div>
+                </div>
+                <div className="field">
+                  <label>Message</label>
+                  <textarea name="message" rows="6" />
+                </div>
+                <button className="ui button" type="submit">
+                  Submit
+                </button>
+              </form>
+              {/* <form name="contact" method="POST" data-netlify="true">
                 <div className="row">
                   <div className="col-md-4">
                     <input
@@ -56,7 +80,7 @@ const Contact = () => {
                     </span>
                   </label>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
