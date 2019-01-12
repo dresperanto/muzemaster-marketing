@@ -21,8 +21,8 @@ const Contact = () => {
               </h3>
               <form
                 name="contact"
-                method="POST"
-                data-netlify="true"
+                method="post"
+                netlify
                 className="ui form"
                 action="/"
               >
