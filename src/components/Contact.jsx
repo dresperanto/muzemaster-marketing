@@ -19,14 +19,7 @@ const Contact = () => {
               <h3 className="text-center text-white title-font mb50">
                 Subscribe Now
               </h3>
-              <form
-                name="contact"
-                method="post"
-                netlify
-                className="ui form"
-                action="/"
-              >
-                <input type="hidden" name="form-name" value="contact" />
+              <form name="contact" class="ui form" action="/index.html" netlify>
                 <div className="field">
                   <label>Name</label>
                   <input type="text" name="name" placeholder="Name" />
