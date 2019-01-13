@@ -33,27 +33,41 @@ const Navbar = () => {
                   Features
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" data-scroll href="#pricing">
-                  pricing
-                </a>
-              </li> */}
+
               <li className="nav-item">
-                <a className="nav-link" data-scroll href="#reviews">
-                  Reviews
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" data-scroll href="#faqs">
-                  FAQ
+                <a className="nav-link" data-scroll href="#video">
+                  Video
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" data-scroll href="#contact">
-                  Contact
+                  Subscribe
                 </a>
               </li>
             </ul>
+            <div>
+              <a
+                href="https://www.facebook.com/muzemaster"
+                className="social-icon si-dark si-facebook si-dark-round"
+              >
+                <i className="fa fa-facebook" />
+                <i className="fa fa-facebook" />
+              </a>
+              <a
+                href="https://twitter.com/muzemaster"
+                className="social-icon si-dark si-twitter si-dark-round"
+              >
+                <i className="fa fa-twitter" />
+                <i className="fa fa-twitter" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/muzemaster/"
+                className="social-icon si-dark si-g-plus si-dark-round"
+              >
+                <i className="fa fa-linkedin" />
+                <i className="fa fa-linkedin" />
+              </a>
+            </div>
           </div>
         </div>
       </nav>

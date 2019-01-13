@@ -54,40 +54,6 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white">
-          <div className="container pt90 pb50">
-            <div className="row align-items-center">
-              <div className="col-lg-5 ml-auto mb40">
-                <h6 className="text-dark-gray">
-                  Well documented and clean coded
-                </h6>
-                <h3 className="title-font mb20">Developers friendly code</h3>
-                <p className="lead">
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                </p>
-                <a
-                  href="https://www.youtube.com/watch?v=zRV9Jd-503c"
-                  className="btn btn-outline-dark modal-video"
-                >
-                  <i className="icon-play-circle" />
-                  Watch Video
-                </a>
-              </div>
-              <div
-                className="col-lg-6 mr-auto mb40 wow zoomInUp"
-                data-wow-delay=".1s"
-              >
-                <img
-                  src="images/mockup5.png"
-                  alt=""
-                  className="img-fluid center-img"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     </div>
   );

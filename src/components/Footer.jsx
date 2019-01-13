@@ -15,7 +15,7 @@ const Footer = () => {
                 <h5 className=" mb20">Mail Us</h5>
                 <p className="lead">info@muzemaster.com</p>
               </div>
-              <div className="col-lg-4 mb20">
+              <div className="col-lg-4">
                 <h5 className="mb20 text-center">Connect</h5>
                 <a
                   href="https://www.facebook.com/muzemaster"
