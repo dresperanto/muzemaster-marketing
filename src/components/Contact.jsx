@@ -17,6 +17,7 @@ const Contact = () => {
               <h3 className="text-center text-white title-font mb50">Subscribe Now</h3>
 
               <form name="newsletter" method="post">
+                <input type="hidden" name="form-name" value="newsletter" />
                 <div className="row">
                   <div className="col-md-4">
                     <input type="text" name="name" className="form-control" placeholder="Name" required="" />
@@ -29,19 +30,6 @@ const Contact = () => {
                       Subscribe
                     </button>
                   </div>
-                </div>
-
-                <div className="text-center pt20">
-                  {/* <label className="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
-                    <input type="checkbox" className="custom-control-input" />
-                    <span className="custom-control-indicator" />
-                    <span className="custom-control-description">
-                      Accept our{' '}
-                      <a href="#" className="text-white">
-                        Terms &amp; Conditions
-                      </a>
-                    </span>
-                  </label> */}
                 </div>
               </form>
             </div>
