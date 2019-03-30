@@ -13,7 +13,9 @@ const Footer = () => {
               </div>
               <div className="col-lg-4 mb20">
                 <h5 className=" mb20">Mail Us</h5>
-                <p className="lead">info@muzemaster.com</p>
+                <p className="lead">
+                  <a href="mailto:info@muzemaster.com">info@muzemaster.com</a>
+                </p>
               </div>
               <div className="col-lg-4">
                 <h5 className="mb20 text-center">Connect</h5>

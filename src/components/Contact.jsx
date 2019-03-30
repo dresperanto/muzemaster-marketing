@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-10 mr-auto ml-auto text-center">
-              <h6 className="text-white-gray text-center">Subscribe to our Newsletter and get benefits</h6>
+              <h6 className="text-white-gray text-center">Subscribe to our newsletter for news and product updates</h6>
               <h3 className="text-center text-white title-font mb50">Subscribe Now</h3>
 
               <form name="newsletter" method="post">
