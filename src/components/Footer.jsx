@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
@@ -17,27 +17,32 @@ const Footer = () => {
               </div>
               <div className="col-lg-4">
                 <h5 className="mb20 text-center">Connect</h5>
-                <a
-                  href="https://www.facebook.com/muzemaster"
-                  className="social-icon si-dark si-facebook si-dark-round"
-                >
-                  <i className="fa fa-facebook" />
-                  <i className="fa fa-facebook" />
-                </a>
-                <a
-                  href="https://twitter.com/muzemaster"
-                  className="social-icon si-dark si-twitter si-dark-round"
-                >
-                  <i className="fa fa-twitter" />
-                  <i className="fa fa-twitter" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/muzemaster/"
-                  className="social-icon si-dark si-g-plus si-dark-round"
-                >
-                  <i className="fa fa-linkedin" />
-                  <i className="fa fa-linkedin" />
-                </a>
+                <div className="footerSocial" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+                  <a
+                    style={{ float: 'none', display: 'inline-block' }}
+                    href="https://www.facebook.com/muzemaster"
+                    className="social-icon si-dark si-facebook si-dark-round"
+                  >
+                    <i className="fa fa-facebook" />
+                    <i className="fa fa-facebook" />
+                  </a>
+                  <a
+                    style={{ float: 'none', display: 'inline-block' }}
+                    href="https://twitter.com/muzemaster"
+                    className="social-icon si-dark si-twitter si-dark-round"
+                  >
+                    <i className="fa fa-twitter" />
+                    <i className="fa fa-twitter" />
+                  </a>
+                  <a
+                    style={{ float: 'none', display: 'inline-block' }}
+                    href="https://www.linkedin.com/company/muzemaster/"
+                    className="social-icon si-dark si-g-plus si-dark-round"
+                  >
+                    <i className="fa fa-linkedin" />
+                    <i className="fa fa-linkedin" />
+                  </a>
+                </div>
               </div>
             </div>
             <hr className="mb20" />
@@ -51,8 +56,7 @@ const Footer = () => {
               </li> */}
 
               <li className="list-inline-item">
-                <a href="https://muzemaster.com">Muzemaster</a> &copy; Copyright
-                2019.
+                <a href="https://muzemaster.com">Muzemaster</a> &copy; Copyright 2019.
               </li>
             </ul>
           </div>
