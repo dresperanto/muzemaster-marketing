@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -13,30 +13,16 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-10 mr-auto ml-auto text-center">
-              <h6 className="text-white-gray text-center">
-                Subscribe to our Newsletter and get benefits
-              </h6>
-              <h3 className="text-center text-white title-font mb50">
-                Subscribe Now
-              </h3>
+              <h6 className="text-white-gray text-center">Subscribe to our Newsletter and get benefits</h6>
+              <h3 className="text-center text-white title-font mb50">Subscribe Now</h3>
 
-              <form name="contact" method="post" data-netlify="true">
+              <form name="newsletter" method="post">
                 <div className="row">
                   <div className="col-md-4">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Name"
-                      required=""
-                    />
+                    <input type="text" name="name" className="form-control" placeholder="Name" required="" />
                   </div>
                   <div className="col-md-4">
-                    <input
-                      type="email"
-                      className="form-control"
-                      placeholder="Email"
-                      required=""
-                    />
+                    <input type="email" name="email" className="form-control" placeholder="Email" required="" />
                   </div>
                   <div className="col-md-4">
                     <button type="submit" className="btn btn-primary btn-block">
@@ -46,16 +32,16 @@ const Contact = () => {
                 </div>
 
                 <div className="text-center pt20">
-                  <label className="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                  {/* <label className="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
                     <input type="checkbox" className="custom-control-input" />
                     <span className="custom-control-indicator" />
                     <span className="custom-control-description">
-                      Accept our{" "}
+                      Accept our{' '}
                       <a href="#" className="text-white">
                         Terms &amp; Conditions
                       </a>
                     </span>
-                  </label>
+                  </label> */}
                 </div>
               </form>
             </div>
